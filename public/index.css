@@ -1,0 +1,112 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0e0404;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration
+  }
+  .prp{
+    width: 100vw;
+  }
+  .logo{
+    height: 15vh;
+  }
+  .colo{
+    color: rgb(168, 11, 11);
+  }
+  .b1{
+background-color: rgb(2, 15, 15);
+  }
+  .hdr{
+    background-color: rgb(12, 11, 10);
+    text-align: center;
+  }
+ .h2r{
+    justify-content: center;
+    height: 15vh;
+    text-size-adjust: 30px;
+    size: 10px;
+  }
+  .at{
+    height: 50px;
+  }
+  .khan{
+    height:100%;
+    width: 100vw;
+  }
+  .p2p{
+    background-color: rgb(229, 255, 255);
+    width: 100vw;
+    height: 3vh;
+    margin-left: 30%;
+    margin-top: 2%;
+  }
+  .tex{
+    color: blue;
+    margin-bottom: 100px;
+    height: 20vh;
+  }
+.pic2{
+  height: 20vh;
+}
+.merge{
+  height: 200vh;
+  margin-left:600px;
+  margin-bottom: 200px;
+  hr color:black;;
+}
+.d1{
+  height: 28vh;
+}
+.d2{
+  height: 20%;
+}
+.activity{
+  height: 60vh;
+}
+.dto{
+  flex: 1;
+  display:flex ;
+}
+.contact{
+  height: 15vh;
+  margin-right: 200%;
+}
+h3{
+  margin-left: 120px;
+}
+h4{
+  margin-left:100px ;
+}
+.nd{
+  margin-left:6vh ;
+  height: 10vh;
+}
+@media only screen (max-width: 1024px){
+  .logo{
+    margin: top: 130px;
+  }
+}
