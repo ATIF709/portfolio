@@ -1,0 +1,84 @@
+
+
+
+
+.atif {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(193, 194, 224, 0.822);
+    border: 3px solid blue;
+    box-shadow: 0 0 10px rgba(17, 0, 0, 0.2);
+   
+}
+
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color:#0E2E50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.form-divider {
+    border-top: 5px solid rgb(19, 19, 141);
+    margin: 20px 0;
+}
+
+.map {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+/* Small screens (mobile phones) */
+@media only screen and (max-width: 600px) {
+    /* Your CSS styles for small screens here */
+}
+
+/* Medium screens (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Your CSS styles for medium screens here */
+}
+
+/* Large screens (desktops) */
+@media only screen and (min-width: 1025px) {
+    /* Your CSS styles for large screens here */
+}
+@media only screen and (max-width: 320px) {
+    /* Your CSS styles for iPhone SE here */
+}
+
+
